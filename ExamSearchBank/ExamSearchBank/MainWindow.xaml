@@ -1,0 +1,41 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WindowsPresentation="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation" x:Class="ExamSearchBank.MainWindow"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="spInfo">
+            <TextBox x:Name="tbNamePunkt" IsEnabled="True"/>
+            <Label Content="Адрес:"/>
+            <TextBox x:Name="tbAddress" IsEnabled="True"/>
+            <Label Content="Телефон:"/>
+            <TextBox x:Name="tbPhone"/>
+            <Label Content="Режим работы:"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="tbStartTime" Width="80"/>
+                <Label Content="-"/>
+                <TextBox x:Name="tbEndTime" Width="80"/>
+            </StackPanel>
+            <Label Content="Обеденный перерыв:"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="tbStartLunchTime" Width="80"/>
+                <Label Content="-"/>
+                <TextBox x:Name="tbEndLunchTime" Width="80"/>
+            </StackPanel>
+            <Label Content="Технический перерыв:"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="tbMaintenanceTimeStart" Width="80"/>
+                <Label Content="-"/>
+                <TextBox x:Name="tbMaintenanceTimeEnd" Width="80"/>
+            </StackPanel>
+            <Label Content="Услуги:"/>
+        </StackPanel>
+        <WindowsPresentation:GMapControl x:Name="gMapControl" Grid.Column="1">
+          
+        </WindowsPresentation:GMapControl>
+    </Grid>
+</Window>

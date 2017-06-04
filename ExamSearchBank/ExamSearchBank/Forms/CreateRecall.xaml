@@ -1,0 +1,81 @@
+﻿<Window x:Class="ExamSearchBank.Forms.CreateRecall"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my ="clr-namespace:ExamSearchBank.Convertor"
+        Title="Добавить отзыв" Height="550" Width="400" Loaded="Window_Loaded">
+    <Window.Resources>
+        <my:PunktConvertor x:Key="PunctConvertor"/>
+    </Window.Resources>
+    <Grid  DataContext="{Binding ElementName=cbRecallBank, Path=SelectedItem}">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TabControl x:Name="tcRecall">
+            <TabItem x:Name="titInfo" Header="Информация для заполнения">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.7*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <GroupBox x:Name="gbInfoBank" Header="Информация об объекте" Grid.Row="0">
+                        <StackPanel x:Name="spInfoBank" Orientation="Vertical">
+                            <Label Content="Выберите банк:" FontSize="14"/>
+                            <ComboBox x:Name="cbRecallBank" Margin="5"/>
+                            <Label Content="Выберите отделение банка:" FontSize="14"/>
+                            <ComboBox x:Name="cbRecallPunkt" Margin="5" />
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox x:Name="gbInfoMy" Header="Информация о себе" Grid.Row="1">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel x:Name="spFIO" Orientation="Vertical">
+                                <Label Content="Имя:" FontSize="14"/>
+                                <TextBox x:Name="tbClientFirstName" FontSize="14" Margin="2"/>
+                                <Label Content="Фамилия:" FontSize="14"/>
+                                <TextBox x:Name="tbClientLastName" FontSize="14" Margin="2"/>
+                                <Label Content="Отчество:" FontSize="14"/>
+                                <TextBox x:Name="tbClientPatronymic" FontSize="14" Margin="2"/>
+                            </StackPanel>
+                            <StackPanel x:Name="spAddress" Grid.Column="1" Orientation="Vertical">
+                                <Label Content="Телефон:" FontSize="14"/>
+                                <TextBox x:Name="tbClientPhone" FontSize="14" Margin="2"/>
+                                <Label Content="Город:" FontSize="14"/>
+                                <TextBox x:Name="tbClientCity" FontSize="14" Margin="2"/>
+                                <Label Content="Улица:" FontSize="14"/>
+                                <TextBox x:Name="tbClientStreet" FontSize="14" Margin="2"/>
+                                <Label Content="Дом:" FontSize="14"/>
+                                <TextBox x:Name="tbClientHouse" FontSize="14" Margin="2"/>
+                            </StackPanel>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="titRecall" Header="Отзыв об объекте">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="27*"/>
+                        <ColumnDefinition Width="166*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.3*"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel x:Name="spRecall" Orientation="Vertical" Grid.Row="0" Grid.ColumnSpan="2">
+                        <Label Content="Краткое описание"/>
+                        <TextBox x:Name="tbRecallName" FontSize="14" Margin="5"/>
+                        <Label Content="Ваш отзыв"/>
+                    </StackPanel>
+                    <TextBox x:Name="tbRecallContext" Grid.Row="1" FontSize="14" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StackPanel x:Name="spRecallSave" Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="1">
+            <Button x:Name="btRecallOk" Content="Сохранить" Margin="10" FontSize="14" Click="btRecallOk_Click"/>
+            <Button x:Name="btRecallCancel" Content="Отмена" Margin="10" FontSize="14" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BaseMapApp.CustomMarkers.CustomMarkerRed"
+	Height="40" Width="30" Opacity="10">
+    <Image Name="icon" Source="red-dot.png" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Image.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Удалить">
+                    <MenuItem x:Name="cmDeleteMarker" Header="Удалить маркер" Click="cmDeleteMarker_Click"/>
+                    <MenuItem x:Name="cmDeletePunkt" Header="Удалить объект" Click="cmDeletePunkt_Click"/>
+                </MenuItem>
+                <MenuItem x:Name="cmEditPunkt" Header="Редактировать" Click="cmEditPunkt_Click"/>
+                <MenuItem x:Name="cmAddRecall" Header="Добавить отзыв" Click="cmAddRecall_Click"/>
+            </ContextMenu>
+        </Image.ContextMenu>
+    </Image>
+</UserControl>

@@ -1,0 +1,67 @@
+﻿<Window x:Class="ExamSearchBank.Forms.CreateBank"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить банк" Height="400" Width="500" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="0.2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="spBankName" Orientation="Horizontal" HorizontalAlignment="Stretch">
+            <Label Content="Название банка:" FontSize="16" Margin="10"/>
+            <TextBox x:Name="tbBankName" Margin="5,10,10,10" Width="200"/>
+        </StackPanel>
+        <GroupBox x:Name="gbKurs" Header="Курс:" Grid.Row="1" Margin="5" FontSize="16">
+            <Grid x:Name="gridKurs">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="spNumber" Grid.Column="0">
+                    <Label Content="№п/п"/>
+                    <Label Content="1" HorizontalAlignment="Center"/>
+                    <Label Content="2" HorizontalAlignment="Center"/>
+                    <Label Content="3" HorizontalAlignment="Center"/>
+                    <Label Content="4" HorizontalAlignment="Center"/>
+                    <Label Content="5" HorizontalAlignment="Center"/>
+                    <Label Content="6" HorizontalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel x:Name="spValyuta" Grid.Column="1">
+                    <Label Content="Валюта" HorizontalAlignment="Center"/>
+                    <ComboBox x:Name="cbValyuta1" Margin="2"/>
+                    <ComboBox x:Name="cbValyuta2" Margin="2"/>
+                    <ComboBox x:Name="cbValyuta3" Margin="2"/>
+                    <ComboBox x:Name="cbValyuta4" Margin="2"/>
+                    <ComboBox x:Name="cbValyuta5" Margin="2"/>
+                    <ComboBox x:Name="cbValyuta6" Margin="2"/>
+                </StackPanel>
+                <StackPanel x:Name="spSell" Grid.Column="2">
+                    <Label Content="Продажа" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="tbSell1" Margin="4"/>
+                    <TextBox x:Name="tbSell2" Margin="4"/>
+                    <TextBox x:Name="tbSell3" Margin="4"/>
+                    <TextBox x:Name="tbSell4" Margin="4"/>
+                    <TextBox x:Name="tbSell5" Margin="4"/>
+                    <TextBox x:Name="tbSell6" Margin="4"/>
+                </StackPanel>
+                <StackPanel x:Name="spBuy" Grid.Column="3">
+                    <Label Content="Покупка" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="tbBuy1" Margin="4"/>
+                    <TextBox x:Name="tbBuy2" Margin="4"/>
+                    <TextBox x:Name="tbBuy3" Margin="4"/>
+                    <TextBox x:Name="tbBuy4" Margin="4"/>
+                    <TextBox x:Name="tbBuy5" Margin="4"/>
+                    <TextBox x:Name="tbBuy6" Margin="4"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <StackPanel x:Name="spSaveBank" Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="2">
+            <Button x:Name="btCreateValyuta" Content="Добавить валюту" Margin="10" Click="btCreateValyuta_Click"/>
+            <Button x:Name="btBankOk" Content="Сохранить" Margin="10" Width="100" Click="btBankOk_Click"/>
+            <Button x:Name="btBankCancel" Content="Отмена" Margin="10" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BaseMapApp.CustomMarkers.CustomMarkerDemo"
+	Height="40" Width="30" Opacity="10">
+    <Image Name="icon" Source="bigMarkerGreen.png" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Image.ContextMenu>
+            <ContextMenu>
+                <MenuItem x:Name="cmAddPunkt" Header="Добавить объект" Click="cmAddPunkt_Click"/>
+            </ContextMenu>
+        </Image.ContextMenu>
+    </Image>
+</UserControl>

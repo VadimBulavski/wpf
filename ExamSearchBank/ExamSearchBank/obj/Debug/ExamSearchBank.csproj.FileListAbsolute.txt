@@ -1,0 +1,160 @@
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe.config
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe.config
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.pdb
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.dll
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.dll
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.xml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.xml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\App.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.cache
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.g.resources
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.Properties.Resources.resources
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csproj.GenerateResource.Cache
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.exe
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.pdb
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.dll
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.dll
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.dll
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.exe
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.pdb
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe.config
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.pdb
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.dll
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.xml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.xml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.xml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.xml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\App.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.cache
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.g.resources
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.Properties.Resources.resources
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csproj.GenerateResource.Cache
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.exe
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.pdb
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.pdb
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.dll
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.dll
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.dll
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.dll
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.xml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.xml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.xml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.xml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\EditBank.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\EditBank.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\App.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.cache
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.baml
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.g.resources
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.Properties.Resources.resources
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csproj.GenerateResource.Cache
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.lref
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.dll
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.dll
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.xml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.xml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\EditBank.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.baml
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\EditBank.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.lref
+K:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.baml
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.lref
+G:\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csprojResolveAssemblyReference.cache
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe.config
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.exe
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.pdb
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csprojResolveAssemblyReference.cache
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\App.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.cache
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.lref
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.pdb
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.dll
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.dll
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.dll
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.dll
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.xml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.xml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.xml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.xml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.baml
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.g.resources
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.Properties.Resources.resources
+E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csproj.GenerateResource.Cache
