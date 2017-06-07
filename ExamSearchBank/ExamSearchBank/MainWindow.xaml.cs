@@ -33,8 +33,8 @@ namespace ExamSearchBank
         public MainWindow()
         {
             InitializeComponent();
-            string conn = @"Data Source=(localdb)\v11.0;initial catalog = BanksDB.mdf;Integrated Security=True";
-            dbContext = new ContextDb(conn);
+            string connectionString = @"Data Source=(localdb)\v11.0;initial catalog = BanksDB.mdf;Integrated Security=True";
+            dbContext = new ContextDb(connectionString);
             dbContext.SaveChanges();
         }
 

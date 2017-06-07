@@ -158,3 +158,44 @@ E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\De
 E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.g.resources
 E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.Properties.Resources.resources
 E:\Вадим флешка\ADO.NET\Day14-16\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csproj.GenerateResource.Cache
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe.config
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.exe
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.pdb
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.exe
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\ExamSearchBank.pdb
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.dll
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.dll
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.dll
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.dll
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.xml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\EntityFramework.SqlServer.xml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.Core.xml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\GMap.NET.WindowsPresentation.xml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csprojResolveAssemblyReference.cache
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateBank.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateEmployee.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateService.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateValyuta.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\MainWindow.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerDemo.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Markers\CustomMarkerRed.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\App.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.cache
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank_MarkupCompile.lref
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreatePunkt.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\Forms\CreateRecall.baml
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.g.resources
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.Properties.Resources.resources
+D:\Vadim\wpf\ExamSearchBank\ExamSearchBank\obj\Debug\ExamSearchBank.csproj.GenerateResource.Cache

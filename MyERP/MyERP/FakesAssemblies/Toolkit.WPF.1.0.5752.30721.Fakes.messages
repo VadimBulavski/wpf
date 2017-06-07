@@ -1,0 +1,7 @@
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate stub for Toolkit.WPF.Controls.Console: method System.Windows.FrameworkElement System.Windows.Controls.Primitives.TextBoxBase.CreateRenderScope() unstubbable: method is abstract and could not be stubbed, method signature type is non-visible to exported or assembly(Toolkit.WPF.1.0.5752.30721.Fakes) or subtype(Console in assembly Toolkit.WPF.1.0.5752.30721.Fakes).
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate stub for Toolkit.WPF.Controls.ConsoleControl.Utils: type is sealed.
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate stub for Toolkit.WPF.Properties.Resources: type is not visible to exported or assembly(Toolkit.WPF.1.0.5752.30721.Fakes).
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate stub for Toolkit.WPF.Properties.Settings: type is sealed.
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate shim for Toolkit.WPF.Controls.Console+CommandHistoryDirection: type is an enum.
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate shim for Toolkit.WPF.Properties.Resources: type is not visible to exported or assembly(Toolkit.WPF.1.0.5752.30721.Fakes).
+E:\WPF\VadimCod\Day9\MyERP\MyERP\Fakes\Toolkit.WPF.fakes : warning : Cannot generate shim for Toolkit.WPF.Properties.Settings: type is not visible to exported or assembly(Toolkit.WPF.1.0.5752.30721.Fakes).

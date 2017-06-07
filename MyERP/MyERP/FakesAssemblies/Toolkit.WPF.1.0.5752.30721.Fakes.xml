@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Toolkit.WPF.1.0.5752.30721.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand">
+            <summary>Shim type of Toolkit.WPF.Controls.ConsoleControl.Command</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.#ctor(Toolkit.WPF.Controls.ConsoleControl.Command)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.ArgsGet">
+            <summary>Sets the shim of Command.get_Args()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.ArgsSetStringArray">
+            <summary>Sets the shim of Command.set_Args(String[] value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.ConstructorStringStringStringArray">
+            <summary>Sets the shim of Command.Command(String raw, String name, String[] args)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.GetDescriptionStringStringStringString">
+            <summary>Sets the shim of Command.GetDescription(String commandFormat, String firstArgFormat, String otherArgsFormat, String end)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.NameGet">
+            <summary>Sets the shim of Command.get_Name()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.NameSetString">
+            <summary>Sets the shim of Command.set_Name(String value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.RawGet">
+            <summary>Sets the shim of Command.get_Raw()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.RawSetString">
+            <summary>Sets the shim of Command.set_Raw(String value)</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.ArgsGet">
+            <summary>Sets the shim of Command.get_Args()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.ArgsSetStringArray">
+            <summary>Sets the shim of Command.set_Args(String[] value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.GetDescriptionStringStringStringString">
+            <summary>Sets the shim of Command.GetDescription(String commandFormat, String firstArgFormat, String otherArgsFormat, String end)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.NameGet">
+            <summary>Sets the shim of Command.get_Name()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.NameSetString">
+            <summary>Sets the shim of Command.set_Name(String value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.RawGet">
+            <summary>Sets the shim of Command.get_Raw()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimCommand.AllInstances.RawSetString">
+            <summary>Sets the shim of Command.set_Raw(String value)</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimUtils">
+            <summary>Shim type of Toolkit.WPF.Controls.ConsoleControl.Utils</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimUtils.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.ShimUtils.ParseCommandLineString">
+            <summary>Sets the shim of Utils.ParseCommandLine(String line)</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.ConsoleControl.Fakes.StubCommand">
+            <summary>Stub type of Toolkit.WPF.Controls.ConsoleControl.Command</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.StubCommand.#ctor(System.String,System.String,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.ConsoleControl.Fakes.StubCommand.InitializeStub">
+            <summary>Initializes a new instance of type StubCommand</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.StubCommand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.StubCommand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.ConsoleControl.Fakes.StubCommand.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.Fakes.ShimConsole">
+            <summary>Shim type of Toolkit.WPF.Controls.Console</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.#ctor(Toolkit.WPF.Controls.Console)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.Bind(System.Windows.IInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.Bind(System.Windows.Markup.IAddChild)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.Bind(System.Windows.Media.Animation.IAnimatable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.Bind(System.Windows.IFrameworkInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.Bind(System.ComponentModel.ISupportInitialize)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AbortRequestedAddEventHandlerOfEventArgs">
+            <summary>Sets the shim of Console.add_AbortRequested(EventHandler`1&lt;EventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AbortRequestedRemoveEventHandlerOfEventArgs">
+            <summary>Sets the shim of Console.remove_AbortRequested(EventHandler`1&lt;EventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.CommandEnteredAddEventHandlerOfConsoleCommandEventArgs">
+            <summary>Sets the shim of Console.add_CommandEntered(EventHandler`1&lt;CommandEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.CommandEnteredRemoveEventHandlerOfConsoleCommandEventArgs">
+            <summary>Sets the shim of Console.remove_CommandEntered(EventHandler`1&lt;CommandEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.CommandLogGet">
+            <summary>Sets the shim of Console.get_CommandLog()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.CommandLogSetListOfCommand">
+            <summary>Sets the shim of Console.set_CommandLog(List`1&lt;Command&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.CompletePathStringString">
+            <summary>Sets the shim of Console.CompletePath(String linePrefix, String lineSuffix)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.Constructor">
+            <summary>Sets the shim of Console.Console()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.GetAssociatedCommandsString">
+            <summary>Sets the shim of Console.GetAssociatedCommands(String prefix)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.GetCommonPrefixStringArray">
+            <summary>Sets the shim of Console.GetCommonPrefix(String[] strs)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.GetFileListStringBoolean">
+            <summary>Sets the shim of Console.GetFileList(String dir, Boolean useAntislash)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.GetShortestStringStringArray">
+            <summary>Sets the shim of Console.GetShortestString(String[] strs)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.GetTextWithPromptSuffixString">
+            <summary>Sets the shim of Console.GetTextWithPromptSuffix(String suffix)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.HandleEnterKey">
+            <summary>Sets the shim of Console.HandleEnterKey()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.HandleTabKey">
+            <summary>Sets the shim of Console.HandleTabKey()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.InsertLineBeforePromptString">
+            <summary>Sets the shim of Console.InsertLineBeforePrompt(String text)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.InsertNewPrompt">
+            <summary>Sets the shim of Console.InsertNewPrompt()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.IsInputEnabledGet">
+            <summary>Sets the shim of Console.get_IsInputEnabled()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.IsInputEnabledSetBoolean">
+            <summary>Sets the shim of Console.set_IsInputEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.IsPromptInsertedAtLaunchGet">
+            <summary>Sets the shim of Console.get_IsPromptInsertedAtLaunch()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.IsPromptInsertedAtLaunchSetBoolean">
+            <summary>Sets the shim of Console.set_IsPromptInsertedAtLaunch(Boolean value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.IsSystemBeepEnabledGet">
+            <summary>Sets the shim of Console.get_IsSystemBeepEnabled()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.IsSystemBeepEnabledSetBoolean">
+            <summary>Sets the shim of Console.set_IsSystemBeepEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.LastPomptIndexGet">
+            <summary>Sets the shim of Console.get_LastPomptIndex()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.LastPomptIndexSetInt32">
+            <summary>Sets the shim of Console.set_LastPomptIndex(Int32 value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.OnPreviewKeyDownKeyEventArgs">
+            <summary>Sets the shim of Console.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.PromptGet">
+            <summary>Sets the shim of Console.get_Prompt()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.PromptSetString">
+            <summary>Sets the shim of Console.set_Prompt(String value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.RaiseAbortRequested">
+            <summary>Sets the shim of Console.RaiseAbortRequested()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.RaiseCommandEnteredCommand">
+            <summary>Sets the shim of Console.RaiseCommandEntered(Command command)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.RegisteredCommandsGet">
+            <summary>Sets the shim of Console.get_RegisteredCommands()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.RegisteredCommandsSetListOfString">
+            <summary>Sets the shim of Console.set_RegisteredCommands(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole._ctorb__0ObjectRoutedEventArgs">
+            <summary>Sets the shim of Console.&lt;.ctor&gt;b__0(Object s, RoutedEventArgs e)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole._ctorb__1ObjectTextChangedEventArgs">
+            <summary>Sets the shim of Console.&lt;.ctor&gt;b__1(Object s, TextChangedEventArgs e)</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.AbortRequestedAddEventHandlerOfEventArgs">
+            <summary>Sets the shim of Console.add_AbortRequested(EventHandler`1&lt;EventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.AbortRequestedRemoveEventHandlerOfEventArgs">
+            <summary>Sets the shim of Console.remove_AbortRequested(EventHandler`1&lt;EventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.CommandEnteredAddEventHandlerOfConsoleCommandEventArgs">
+            <summary>Sets the shim of Console.add_CommandEntered(EventHandler`1&lt;CommandEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.CommandEnteredRemoveEventHandlerOfConsoleCommandEventArgs">
+            <summary>Sets the shim of Console.remove_CommandEntered(EventHandler`1&lt;CommandEventArgs&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.CommandLogGet">
+            <summary>Sets the shim of Console.get_CommandLog()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.CommandLogSetListOfCommand">
+            <summary>Sets the shim of Console.set_CommandLog(List`1&lt;Command&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.CompletePathStringString">
+            <summary>Sets the shim of Console.CompletePath(String linePrefix, String lineSuffix)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.GetAssociatedCommandsString">
+            <summary>Sets the shim of Console.GetAssociatedCommands(String prefix)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.GetCommonPrefixStringArray">
+            <summary>Sets the shim of Console.GetCommonPrefix(String[] strs)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.GetFileListStringBoolean">
+            <summary>Sets the shim of Console.GetFileList(String dir, Boolean useAntislash)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.GetShortestStringStringArray">
+            <summary>Sets the shim of Console.GetShortestString(String[] strs)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.GetTextWithPromptSuffixString">
+            <summary>Sets the shim of Console.GetTextWithPromptSuffix(String suffix)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.HandleEnterKey">
+            <summary>Sets the shim of Console.HandleEnterKey()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.HandleTabKey">
+            <summary>Sets the shim of Console.HandleTabKey()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.InsertLineBeforePromptString">
+            <summary>Sets the shim of Console.InsertLineBeforePrompt(String text)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.InsertNewPrompt">
+            <summary>Sets the shim of Console.InsertNewPrompt()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.IsInputEnabledGet">
+            <summary>Sets the shim of Console.get_IsInputEnabled()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.IsInputEnabledSetBoolean">
+            <summary>Sets the shim of Console.set_IsInputEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.IsPromptInsertedAtLaunchGet">
+            <summary>Sets the shim of Console.get_IsPromptInsertedAtLaunch()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.IsPromptInsertedAtLaunchSetBoolean">
+            <summary>Sets the shim of Console.set_IsPromptInsertedAtLaunch(Boolean value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.IsSystemBeepEnabledGet">
+            <summary>Sets the shim of Console.get_IsSystemBeepEnabled()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.IsSystemBeepEnabledSetBoolean">
+            <summary>Sets the shim of Console.set_IsSystemBeepEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.LastPomptIndexGet">
+            <summary>Sets the shim of Console.get_LastPomptIndex()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.LastPomptIndexSetInt32">
+            <summary>Sets the shim of Console.set_LastPomptIndex(Int32 value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.OnPreviewKeyDownKeyEventArgs">
+            <summary>Sets the shim of Console.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.PromptGet">
+            <summary>Sets the shim of Console.get_Prompt()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.PromptSetString">
+            <summary>Sets the shim of Console.set_Prompt(String value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.RaiseAbortRequested">
+            <summary>Sets the shim of Console.RaiseAbortRequested()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.RaiseCommandEnteredCommand">
+            <summary>Sets the shim of Console.RaiseCommandEntered(Command command)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.RegisteredCommandsGet">
+            <summary>Sets the shim of Console.get_RegisteredCommands()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances.RegisteredCommandsSetListOfString">
+            <summary>Sets the shim of Console.set_RegisteredCommands(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances._ctorb__0ObjectRoutedEventArgs">
+            <summary>Sets the shim of Console.&lt;.ctor&gt;b__0(Object s, RoutedEventArgs e)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.AllInstances._ctorb__1ObjectTextChangedEventArgs">
+            <summary>Sets the shim of Console.&lt;.ctor&gt;b__1(Object s, TextChangedEventArgs e)</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs">
+            <summary>Shim type of Toolkit.WPF.Controls.Console+CommandEventArgs</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.#ctor(Toolkit.WPF.Controls.Console.CommandEventArgs)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.CommandGet">
+            <summary>Sets the shim of CommandEventArgs.get_Command()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.CommandSetCommand">
+            <summary>Sets the shim of CommandEventArgs.set_Command(Command value)</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.ConstructorCommand">
+            <summary>Sets the shim of CommandEventArgs.CommandEventArgs(Command command)</summary>
+        </member>
+        <member name="T:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.AllInstances.CommandGet">
+            <summary>Sets the shim of CommandEventArgs.get_Command()</summary>
+        </member>
+        <member name="P:Toolkit.WPF.Controls.Fakes.ShimConsole.ShimCommandEventArgs.AllInstances.CommandSetCommand">
+            <summary>Sets the shim of CommandEventArgs.set_Command(Command value)</summary>
+        </member>
+    </members>
+</doc>

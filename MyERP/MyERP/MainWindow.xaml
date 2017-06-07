@@ -1,0 +1,132 @@
+﻿<Window x:Class="MyERP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+        xmlns:my="clr-namespace:MyERP"
+        xmlns:local="clr-namespace:MyERP.ViewModel"
+        Title="MainWindow" Height="auto" Width="auto">
+    <Window.DataContext>
+        <local:MainWindowViewModel></local:MainWindowViewModel>
+    </Window.DataContext>
+    
+    <Window.Resources>
+        <my:ConvertorOrderData x:Key="ConvertorOrderData"/>
+        <my:ConvertorPosition x:Key="ConvertorPosition"/>
+        <my:ConvertorData x:Key="ConvertorData"/>
+        <my:ConvertorDepartment x:Key="ConvertorDepartment"/>
+        <DataTemplate x:Key="ItemUser" >
+            <Border CornerRadius="10" BorderThickness="2" BorderBrush="DarkGray" Margin="3" >
+                <Grid Margin="5" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" ></ColumnDefinition>
+                        <ColumnDefinition Width="130"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Height="150" Width="200"/>
+                    <Label Foreground="White" Content="{Binding FirstName}" Grid.Column="1" Grid.Row="0"/>
+                    <Label Foreground="White" Content="{Binding LastName}" Grid.Column="1" Grid.Row="1"/>
+                    <Label Foreground="White" Content="{Binding Position, Converter={StaticResource ConvertorPosition}}" Grid.Column="1" Grid.Row="2"/>
+                    <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <StackPanel.Style>
+                            <Style>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource
+                                        Mode=FindAncestor,AncestorType={x:Type ListBoxItem}}}" Value="False">
+                                        <Setter Property="StackPanel.Visibility" Value="Collapsed"></Setter>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </StackPanel.Style>
+                        <Button x:Name="buttDelete" Content="Удалить" Command="{Binding DeleteClient}"/>
+                        <Button x:Name="buttEdit" Content="Редактировать" Click="buttEdit_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </DataTemplate>    
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto" ></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <GroupBox>
+            <StackPanel x:Name="spChecked">
+                <RadioButton x:Name="cbAll" Foreground="White" Checked="cbAll_Checked">Все сотрудники</RadioButton>
+                <RadioButton x:Name="cbDirector" Foreground="White" Checked="cbDirector_Checked">Директор</RadioButton>
+                <RadioButton x:Name="cbDeputyDirector" Foreground="White" Checked="cbDeputyDirector_Checked">Замы</RadioButton>
+                <RadioButton x:Name="cbManager" Foreground="White" Checked="cbManager_Checked">Менеджеры</RadioButton>
+                <RadioButton x:Name="cbDisigner" Foreground="White" Checked="cbDisigner_Checked">Дизайнеры</RadioButton>
+                <RadioButton x:Name="cbHeadOfDepartment" Foreground="White" Checked="cbHeadOfDepartment_Checked">Начальники отделов</RadioButton>
+                <RadioButton x:Name="cbWorking" Foreground="White" Checked="cbWorking_Checked">Производство</RadioButton>
+                <RadioButton x:Name="cbShipping" Foreground="White" Checked="cbShipping_Checked">Отгрузка</RadioButton>
+                <Button x:Name="buttNew" Margin="2,140,0,0" Height="30" Click="buttNew_Click">Добавить сотрудника</Button>
+            </StackPanel>
+        </GroupBox>
+        
+        <ListBox x:Name="lbListProfesion" ItemsSource="{Binding Path=Professions}" ItemTemplate="{StaticResource ItemUser}"
+                 SelectedItem="{Binding CurrentProfession}" Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Stretch"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                 SelectionChanged="lbListProfesion_SelectionChanged"/>
+        
+        <GroupBox  Grid.Column="1" Grid.Row="0">
+            <Image Source="{Binding Path=CurrentProfession.Foto}" Width="300" Height="300"/>
+        </GroupBox>
+        
+        <GroupBox Grid.Row="0" Grid.Column="2">
+            <StackPanel  VerticalAlignment="Stretch">
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Идентификационный номер: {0}, Path=CurrentProfession.EmployeeNumber}" Grid.Column="1" Grid.Row="0"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Имя: {0}, Path=CurrentProfession.FirstName }" Grid.Column="1" Grid.Row="1"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Фамилия: {0}, Path=CurrentProfession.LastName}" Grid.Column="1" Grid.Row="2"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Дата рождения: {0} ,Path=CurrentProfession.Date, Converter={StaticResource ConvertorData}}" Grid.Column="1" Grid.Row="3"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Адрес: {0}, Path=CurrentProfession.Adress}" Grid.Column="1" Grid.Row="4"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Отдел: {0}, Path=CurrentProfession.Department, Converter={StaticResource ConvertorDepartment}}" Grid.Column="1" Grid.Row="5"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Специальность: {0}, Path=CurrentProfession.Position, Converter={StaticResource ConvertorPosition}}"
+                           Grid.Column="1" Grid.Row="6"/>
+                <TextBlock Foreground="White" Text="{Binding StringFormat=Оклад: {0} $,Path=CurrentProfession.Salory}" Grid.Column="1" Grid.Row="7"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Column="3" Grid.Row="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{Binding StringFormat=Качество труда: {0}, Path=CurrentProfession.Rating}"
+                           Foreground="White" Margin="20" Grid.Row="0"/>
+                <chartingToolkit:Chart   x:Name="pieChart" Grid.Row="1"  
+                                 Title="Показатели качества" Margin="3">
+                    <chartingToolkit:PieSeries 
+               DependentValuePath="Value" 
+		       IndependentValuePath="Key" ItemsSource="{Binding ElementName=pieChart, Path=DataContext}" 
+		       IsSelectionEnabled="True" />
+                </chartingToolkit:Chart>
+            </Grid>
+        </GroupBox>
+           
+        <DataGrid x:Name="dgOrder" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" 
+                  AutoGenerateColumns="False" ItemsSource="{Binding Path=CurrentProfession.ListOrder}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="*" Header="Номер заказа" Binding="{Binding Path=NameOrder}"  CanUserSort="True" />
+                <DataGridTextColumn Width="*" Header="Заказчик"  Binding="{Binding Path=NameOfCustomer}"   CanUserSort="True" />
+                <DataGridTextColumn Width="*" Header="Дата запуска"  Binding="{Binding Path=Start,Converter={StaticResource ConvertorOrderData}}"   CanUserSort="True" />
+                <DataGridTextColumn Width="*" Header="Дата отгрузки"  Binding="{Binding Path=Finish, Converter={StaticResource ConvertorOrderData}}"   CanUserSort="True" />
+                <DataGridTextColumn Width="*" Header="Процент выполнения"  Binding="{Binding StringFormat={}{0} %, Path=Completion}"   CanUserSort="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Window>
